@@ -1,2 +1,2 @@
-token = "248188212:AAHxz6lGulUyl6X75cVjeablsLa5Ty4WTRw"
+token = ""
 myid = "239536122"

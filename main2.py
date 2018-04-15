@@ -597,7 +597,7 @@ def handle_text(message):
 
         #------------
 
-"""if "HEROKU" in list(os.environ.keys()):
+if "HEROKU" in list(os.environ.keys()):
     logger = telebot.logger
     telebot.logger.setLevel(logging.INFO)
 
@@ -615,5 +615,5 @@ def handle_text(message):
 else:
     # если переменной окружения HEROKU нету, значит это запуск с машины разработчика.
     # Удаляем вебхук на всякий случай, и запускаем с обычным поллингом.
-    bot.remove_webhook()"""
-bot.polling(none_stop=True)
+    bot.remove_webhook()
+    bot.polling(none_stop=True)
